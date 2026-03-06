@@ -1,0 +1,6 @@
+^\.git$
+^\.gitignore$
+^\.Rproj\.user$
+^CLAUDE\.md$
+^docs$
+^_pkgdown\.yml$

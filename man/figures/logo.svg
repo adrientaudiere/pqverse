@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- pqverse hex logo template: pqverse (meta-package) -->
+
+<!-- Open in Inkscape · replace the dashed placeholder with your illustration -->
+
+<!-- Palette: #faefd1 cream · #003f5f dark blue · #c8a734 gold · #c93312 red (accent) -->
+
+<svg
+   width="43.899933mm"
+   height="50.800056mm"
+   viewBox="0 0 43.899933 50.800056"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.3 (1:1.4.3+202512261035+0d15f75042)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1263008"
+     inkscape:cx="-126.52037"
+     inkscape:cy="40.397733"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g42876" />
+  <defs
+     id="defs2">
+    <!-- Clip path: limits illustration to inner hexagon -->
+    <clipPath
+       id="innerHexClip">
+      <polygon
+         points="22.092,1.31 42.954,13.355 42.954,37.445 22.092,49.490 1.23,37.445 1.23,13.355"
+         id="polygon1" />
+    </clipPath>
+    <!-- Text arc: convex-upward quadratic bezier for package name -->
+    <!-- Midpoint at approx. (22.092, 7.5) · adjust control point y to change curvature -->
+    <path
+       id="textArc"
+       d="M 4,15 Q 22.092,6 40,15"
+       fill="none" />
+  </defs>
+  <!-- ── 1. OUTER HEX BORDER ──────────────────────────────────────────── -->
+  <!-- ── 2. INNER HEX BACKGROUND (cream parchment) ────────────────────── -->
+  <!-- ── 3. TOP ACCENT BAND (red · edit colour/opacity to taste) ─────── -->
+  <!-- The meta-package uses red to echo the Red Planet / universe feel   -->
+  <!-- ── 4. BOTTOM ACCENT BAND (echo of top) ──────────────────────────── -->
+  <!-- ── 5. GOLD INNER BORDER LINE ────────────────────────────────────── -->
+  <!-- ── 6. PACKAGE NAME ───────────────────────────────────────────────── -->
+  <!-- Font: Linux Libertine O (apt: linux-libertine / fonts-linuxlibertine) -->
+  <!-- Adjust font-size (mm) and the textArc control point to fit the name -->
+  <!-- ── 7. ILLUSTRATION PLACEHOLDER ─────────────────────────────────── -->
+  <!-- Concept: the pqverse universe — all child packages orbiting a       -->
+  <!-- central phyloseq object, like a solar system or constellation       -->
+  <!-- e.g. small hex logos of tidypq / dbpq / comparpq / taxinfo /       -->
+  <!--      greenAlgoR / MiscMetabar arranged in a ring                   -->
+  <!-- Delete this group and draw your illustration here                   -->
+  <g
+     id="g3"
+     transform="translate(0.61586746,0.22076938)">
+    <g
+       id="g42876"
+       transform="matrix(1.260031,0,0,1.260213,-59.250146,-26.037035)"
+       inkscape:export-filename="g42876.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="color:#000000;font-variation-settings:normal;opacity:1;fill:#faefd1;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="M 80.997586,30.716396 V 50.565568 L 63.954177,60.490154 46.910767,50.565568 V 30.716396 l 17.04341,-9.924586 z"
+         id="path23099"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         id="text25506"
+         style="font-weight:bold;font-size:5.14588px;line-height:1.1;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O Bold';font-variation-settings:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;display:inline;opacity:1;fill:#003f5f;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         transform="translate(0.05604942,-0.83980512)"><textPath
+           xlink:href="#path38761"
+           id="textPath38763">     pqverse</textPath></text>
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#c8a734;fill-opacity:1;stroke:#c8a734;stroke-width:0.524163;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="m 55.662264,55.097819 c 0,0 -8.117287,-4.390611 -8.376756,-4.840024 -0.12004,-0.207916 13.908654,9.655492 16.621179,5.166989 2.927217,4.234081 16.885828,-5.158958 16.885828,-5.158958 l -8.132639,4.70848 c -4.535877,2.626097 -8.595246,5.069095 -8.664354,5.10666 -0.08862,0.04817 -2.425503,-1.569684 -8.333273,-4.983147 z"
+         id="path24175"
+         sodipodi:nodetypes="csccsscc" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:#2e7891;fill-opacity:1;stroke:#2e7891;stroke-width:0.524163;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="m 55.635312,26.178754 c 0,0 -8.117287,4.390611 -8.376756,4.840024 -0.12004,0.207916 13.908654,-9.655492 16.621179,-5.166989 2.927217,-4.234081 16.885828,5.158958 16.885828,5.158958 l -8.132639,-4.70848 c -4.535877,-2.626097 -8.595246,-5.069095 -8.664354,-5.10666 -0.08862,-0.04817 -2.425503,1.569684 -8.333273,4.983147 z"
+         id="path2493"
+         sodipodi:nodetypes="csccsscc" />
+      <path
+         style="color:#000000;font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="M 80.997586,30.716396 V 50.565568 L 63.954177,60.490154 46.910767,50.565568 V 30.716396 l 17.04341,-9.924586 z"
+         id="path26524" />
+      <path
+         style="font-variation-settings:normal;opacity:0.564379;fill:none;fill-opacity:1;stroke:none;stroke-width:2.06915;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="m 49.588551,34.394787 c 9.868953,-2.794231 17.284185,-3.953985 28.73125,0"
+         id="path38761"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 63.064258,45.975327 v 4.829208 l -4.14658,2.414605 -4.14658,-2.414605 v -4.829208 l 4.14658,-2.414605 z"
+         id="path3-9" />
+      <path
+         style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 73.137256,45.975327 v 4.829208 l -4.14658,2.414605 -4.146581,-2.414605 v -4.829208 l 4.146581,-2.414605 z"
+         id="path3-2" />
+      <path
+         style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 75.813158,51.358287 -0.950953,-0.553752 v -4.829208 l 4.146581,-2.414605 0.821809,0.47855"
+         id="path3-2-0"
+         sodipodi:nodetypes="ccccc" />
+      <g
+         id="g4"
+         transform="translate(-0.8126765)">
+        <path
+           style="color:#000000;font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+           d="m 58.840436,37.150324 v 4.829208 l -4.14658,2.414605 -4.146581,-2.414605 v -4.829208 l 4.146581,-2.414605 z"
+           id="path3" />
+        <path
+           style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+           d="m 78.986431,37.0632 v 4.829208 l -4.14658,2.414605 -4.146581,-2.414605 V 37.0632 l 4.146581,-2.414605 z"
+           id="path3-4" />
+        <path
+           style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+           d="M 68.913433,37.250092 V 42.0793 l -4.14658,2.414605 -4.146581,-2.414605 v -4.829208 l 4.146581,-2.414605 z"
+           id="path3-6" />
+      </g>
+      <path
+         style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 52.290519,51.358287 0.950953,-0.553752 v -4.829208 l -4.146581,-2.414605 -0.821809,0.47855"
+         id="path6"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="color:#000000;font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#c93312;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.1215;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 59.804976,55.77072 0.0042,-1.100306 4.182821,-2.414604 4.164702,2.383223 -0.0036,0.95088"
+         id="path3-2-0-2"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>

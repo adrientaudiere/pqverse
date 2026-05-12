@@ -21,6 +21,7 @@ library(pqverse)
 #> ✔ comparpq    0.1.0
 #> ✔ taxinfo     0.1.2
 #> ✔ greenAlgoR  0.1.2
+#> ✔ dbpq        0.0.0.9000
 ```
 
 ## Packages
@@ -32,7 +33,7 @@ library(pqverse)
 | [comparpq](https://github.com/adrientaudiere/comparpq) | Tools to compare and analyse multiple phyloseq objects. | [Website](https://adrientaudiere.github.io/comparpq/) |
 | [taxinfo](https://github.com/adrientaudiere/taxinfo) | Augment phyloseq objects with taxonomy-based information from GBIF, Wikipedia, and GloBI. | [Website](https://adrientaudiere.github.io/taxinfo) |
 | [greenAlgoR](https://github.com/adrientaudiere/greenAlgoR) | Carbon footprint estimation for R computations, based on the Green Algorithms framework. | [Website](https://adrientaudiere.github.io/greenAlgoR/) |
-|[dbpq](https://github.com/adrientaudiere/dbpq) | Management of taxonomic reference database | [Website](https://adrientaudiere.github.io/dbpq/) |
+| [dbpq](https://github.com/adrientaudiere/dbpq) | Management of taxonomic reference database | [Website](https://adrientaudiere.github.io/dbpq/) |
 
 ## Utilities
 

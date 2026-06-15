@@ -1,3 +1,7 @@
+# pqverse (development version)
+
+* `dbpq` is now included in `Imports` and attached by `library(pqverse)`, alongside MiscMetabar, tidypq, comparpq, taxinfo, and greenAlgoR. Previously, `dbpq` was listed in the README package table but was missing from `DESCRIPTION` Imports and the `core` vector in `attach.R`.
+
 # pqverse 0.1.0
 
 * Initial release.

@@ -2,5 +2,6 @@
 ^\.gitignore$
 ^\.Rproj\.user$
 ^CLAUDE\.md$
+^dev$
 ^docs$
 ^_pkgdown\.yml$

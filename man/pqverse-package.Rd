@@ -6,6 +6,8 @@
 \alias{pqverse-package}
 \title{pqverse: Easily Install and Load the 'pqverse'}
 \description{
+\if{html}{\figure{logo.svg}{options: style='float: right' alt='logo' width='120'}}
+
 The 'pqverse' is a set of packages for metabarcoding analysis that share the phyloseq object as their central data structure. This package makes it easy to install and load multiple 'pqverse' packages in a single step.
 }
 \seealso{
@@ -18,6 +20,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Adrien Taudière \email{adrien.taudiere@zaclys.net} (\href{https://orcid.org/0000-0003-1088-1182}{ORCID})
+
+Authors:
+\itemize{
+  \item Adrien Taudière \email{adrien.taudiere@zaclys.net} (\href{https://orcid.org/0000-0003-1088-1182}{ORCID})
+}
 
 }
 \keyword{internal}

@@ -1,0 +1,39 @@
+url: https://adrientaudiere.github.io/pqverse/
+
+template:
+  bootstrap: 5
+
+home:
+  title: pqverse — the metabarcoding analysis ecosystem
+  description: |-
+    A set of R packages for metabarcoding analysis that share the
+    `phyloseq` object as their central data structure. `library(pqverse)`
+    attaches all member packages in a single step.
+
+navbar:
+  structure:
+    left:
+      - home
+      - reference
+      - news
+  components:
+    home: ~
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      text: Changelog
+      href: news/index.html
+
+reference:
+  - title: All functions
+    desc: Functions exported by the pqverse meta-package.
+    contents:
+      - pqverse_packages
+      - pqverse_update
+      - "pqverse-package"
+
+news:
+  releases:
+    - text: "Changelog"
+      href: news/index.html

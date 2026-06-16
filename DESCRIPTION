@@ -8,7 +8,7 @@ Description: The 'pqverse' is a set of packages for metabarcoding analysis
     that share the phyloseq object as their central data structure. This
     package makes it easy to install and load multiple 'pqverse' packages
     in a single step.
-License: GPL (>= 3)
+License: AGPL-3
 URL: https://adrientaudiere.github.io/pqverse/,
     https://github.com/adrientaudiere/pqverse
 BugReports: https://github.com/adrientaudiere/pqverse/issues

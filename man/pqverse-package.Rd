@@ -13,6 +13,7 @@ The 'pqverse' is a set of packages for metabarcoding analysis that share the phy
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://adrientaudiere.github.io/pqverse/}
   \item \url{https://github.com/adrientaudiere/pqverse}
   \item Report bugs at \url{https://github.com/adrientaudiere/pqverse/issues}
 }

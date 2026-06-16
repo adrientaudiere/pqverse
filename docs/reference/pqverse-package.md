@@ -9,6 +9,8 @@ step.
 
 Useful links:
 
+- <https://adrientaudiere.github.io/pqverse/>
+
 - <https://github.com/adrientaudiere/pqverse>
 
 - Report bugs at <https://github.com/adrientaudiere/pqverse/issues>

@@ -2,6 +2,11 @@ url: https://adrientaudiere.github.io/pqverse/
 
 template:
   bootstrap: 5
+  bslib:
+    bg: "#faefd1"
+    fg: "#7e3a00"
+    primary: "#003f5f"
+    secondary: "#967A16"
 
 home:
   title: pqverse — the metabarcoding analysis ecosystem

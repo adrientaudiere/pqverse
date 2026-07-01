@@ -1,6 +1,8 @@
 # Changelog
 
-## pqverse (development version)
+## pqverse 0.2.0 (Development version)
+
+## pqverse 0.1.0
 
 - Added `pkgdown/_pkgdown.yml` and rebuilt the pkgdown site at
   <https://adrientaudiere.github.io/pqverse/>. The site is now reachable

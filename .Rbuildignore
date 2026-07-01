@@ -7,3 +7,11 @@
 ^_pkgdown\.yml$
 ^README\.Rmd$
 ^\.github$
+^CONTEXT\.md$
+^\.claude$
+^README\.html$
+^Rplots\.pdf$
+^LICENSE\.md$
+^audits$
+^pkgdown$
+^cran-comments\.md$

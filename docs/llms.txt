@@ -11,6 +11,7 @@ member packages in a single step, much like the
 You can install pqverse from GitHub:
 
 ``` r
+
 # install.packages("pak")
 pak::pak("adrientaudiere/pqverse")
 ```
@@ -18,6 +19,7 @@ pak::pak("adrientaudiere/pqverse")
 ## Usage
 
 ``` r
+
 library(pqverse)
 #> ── Attaching pqverse packages ──────────────────────────────────
 #> ✔ MiscMetabar 0.14.6
@@ -30,18 +32,19 @@ library(pqverse)
 
 ## Packages
 
-| Package                                                      | Description                                                                                                                                                 | Links                                                                                               |
-|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Package | Description | Links |
+|----|----|----|
 | [MiscMetabar](https://github.com/adrientaudiere/MiscMetabar) | Miscellaneous functions for description, transformation, exploration, and reproducibility of metabarcoding analyses. Built on phyloseq, dada2, and targets. | [CRAN](https://cran.r-project.org/package=MiscMetabar), [JOSS](https://doi.org/10.21105/joss.06038) |
-| [tidypq](https://github.com/adrientaudiere/tidypq)           | Tidyverse-style verbs for manipulating phyloseq objects at four scales: samples, taxa, occurrences, and tree.                                               |                                                                                                     |
-| [comparpq](https://github.com/adrientaudiere/comparpq)       | Tools to compare and analyse multiple phyloseq objects.                                                                                                     | [Website](https://adrientaudiere.github.io/comparpq/)                                               |
-| [taxinfo](https://github.com/adrientaudiere/taxinfo)         | Augment phyloseq objects with taxonomy-based information from GBIF, Wikipedia, and GloBI.                                                                   | [Website](https://adrientaudiere.github.io/taxinfo)                                                 |
-| [greenAlgoR](https://github.com/adrientaudiere/greenAlgoR)   | Carbon footprint estimation for R computations, based on the Green Algorithms framework.                                                                    | [Website](https://adrientaudiere.github.io/greenAlgoR/)                                             |
-| [dbpq](https://github.com/adrientaudiere/dbpq)               | Management of taxonomic reference database                                                                                                                  | [Website](https://adrientaudiere.github.io/dbpq/)                                                   |
+| [tidypq](https://github.com/adrientaudiere/tidypq) | Tidyverse-style verbs for manipulating phyloseq objects at four scales: samples, taxa, occurrences, and tree. |  |
+| [comparpq](https://github.com/adrientaudiere/comparpq) | Tools to compare and analyse multiple phyloseq objects. | [Website](https://adrientaudiere.github.io/comparpq/) |
+| [taxinfo](https://github.com/adrientaudiere/taxinfo) | Augment phyloseq objects with taxonomy-based information from GBIF, Wikipedia, and GloBI. | [Website](https://adrientaudiere.github.io/taxinfo) |
+| [greenAlgoR](https://github.com/adrientaudiere/greenAlgoR) | Carbon footprint estimation for R computations, based on the Green Algorithms framework. | [Website](https://adrientaudiere.github.io/greenAlgoR/) |
+| [dbpq](https://github.com/adrientaudiere/dbpq) | Management of taxonomic reference database | [Website](https://adrientaudiere.github.io/dbpq/) |
 
 ## Utilities
 
 ``` r
+
 # List all pqverse packages
 pqverse_packages()
 

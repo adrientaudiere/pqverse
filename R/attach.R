@@ -1,5 +1,5 @@
 # Core packages that are attached when library(pqverse) is called
-core <- c("MiscMetabar", "tidypq", "comparpq", "taxinfo", "greenAlgoR", "dbpq")
+core <- c("MiscMetabar", "tidypq", "comparpq", "taxinfo", "greenAlgoR", "dbpq", "bootpq", "phylopq", "netaipq", "ggplotpq")
 
 core_unloaded <- function() {
   search <- paste0("package:", core)

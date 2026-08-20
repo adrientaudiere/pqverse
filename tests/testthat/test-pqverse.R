@@ -12,5 +12,5 @@ test_that("pqverse_packages returns all core packages", {
 test_that("pqverse_packages can exclude self", {
   pkgs <- pqverse_packages(include_self = FALSE)
   expect_false("pqverse" %in% pkgs)
-  expect_length(pkgs, 6)
+  expect_length(pkgs, length(pqverse_packages()) - 1L)
 })

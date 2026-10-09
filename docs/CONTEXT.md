@@ -117,6 +117,27 @@ from `physeq` via `taxonomic_rank_to_taxnames()`; returns
 `list(taxnames, add_to_phyloseq)`. Each `tax_*_pq` function calls it
 instead of repeating the ~22-line validate-and-extract block.
 
+**GNA data source** — the taxonomic database a name was verified against
+by `gna_verifier_pq()` (Global Names Architecture id, e.g. `1` =
+Catalogue of Life, `11` = GBIF backbone, `210` = TaxRef). Stored per
+taxon in the `tax_table` (`dataSourceId`, `dataSourceTitleShort`), never
+as an object attribute, because phyloseq drops attributes on subsetting.
+
+**Backbone consistency** — taxinfo decision: names should be verified
+against the same backbone as the database queried downstream.
+`check_backbone_pq()` maps the GBIF checklist to a GNA data source
+(`"backbone"` → `11`, `"colxr"` → `1`) and the GBIF `tax_*` functions
+*inform* (not warn) on a mismatch.
+
+**CD_NOM / CD_REF** — TAXREF identifiers of a name and of its accepted
+name. With `gna_verifier_pq(data_sources = 210, id_col = TRUE)` they are
+`recordId` and `currentRecordId`; for a genus-only match they are the
+ids of the genus.
+
+**SES (altitude)** — standardized effect size of `tax_alt_ses_pq()`:
+`(mean altitude of the samples where the taxon is present − mean GBIF altitude) / sd of GBIF altitudes`.
+Presence/absence based, not abundance-weighted.
+
 **greenAlgoR** — pqverse package for estimating the carbon footprint of
 R computations, including targets pipelines, based on the Green
 Algorithms framework.
@@ -185,6 +206,21 @@ tagged with priority (Critical/High/Medium/Low) and facility
 examples); `\dontrun{}` never runs automatically (use to preserve extra
 examples without contributing to check time). Never delete examples —
 wrap them instead.
+
+\*\* data_fungi and data_fungi_mini\*\* — Two phyloseq objects for
+example, data_fungi_mini is a subset of data_fungi. Never use
+`data(data_fungi)` because it’s already loaded when the package is
+loaded.
+
+**Ordination locale vs globale** — Local ordination (t-SNE, UMAP)
+preserves each sample’s neighbourhood and is reliable for
+*neighbourhood, outlier and cluster identification*; global ordination
+(PCA, PCoA/MDS, NMDS) preserves the overall arrangement and is the right
+tool for *point distances, cluster distances, cluster density and class
+separability*. Distances, densities and separations read on a local
+embedding are not faithful to the original space (Jeon et al. 2026,
+“Stop Misusing t-SNE and UMAP for Visual Analytics”). UMATO and PaCMAP
+are recent methods aiming at a local/global compromise.
 
 ## Key decisions
 
